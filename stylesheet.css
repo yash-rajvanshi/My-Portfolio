@@ -9,7 +9,7 @@
 .topBG{
     display: flex;
     width: 100vw;
-    height: 11vh;
+    height: 5vh;
     background-color: #B9CDD8;
     /* border: 2px solid black; */
 }
@@ -37,14 +37,10 @@
 
 .profile{
     display: flex;
-    height: 89vh;
+    height: 95vh;
     width: 100vw;
     justify-content: center;
-    ;
-    /* margin-left: 15vw; */
-    /* margin-top: 24vh; */
-    /* height: ; */
-    /* border: 2px solid black; */
+    
     
 }
 .intro{
@@ -73,9 +69,28 @@
     /* border: 2px solid black; */
     width: 20rem;
     height: 4rem;
-    align-items: center;
+    align-items: center;   
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
     
-    
+}
+.social button{
+    background-color: white;
+    border: none;
+    transition: 0.3s;
+}
+.social button:hover{
+    transform: scale(1.09);
+    cursor: pointer;
+
+}
+.so img{
+    height: auto;
+    width:40px;
 }
 .b1{
     /* margin-top: 1rem; */
@@ -102,6 +117,7 @@
     background-color: black;
     color: #fff;
     transform: scale(1.09);
+    cursor: pointer;
 }
 .b1 a:hover{
     background-color: black;
@@ -411,6 +427,7 @@ align-items: center;
     background-color: black;
     color: #fff;
     transform: scale(1.09);
+    cursor: pointer;
 }
 
 .pro2{
